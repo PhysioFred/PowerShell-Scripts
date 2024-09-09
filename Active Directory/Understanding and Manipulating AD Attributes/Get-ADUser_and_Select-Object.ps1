@@ -1,0 +1,1 @@
+﻿$main_script =Get-ADUser -Identity "camerica" -Properties samaccountname, givenname, sn, distinguishedname | Select-Object samaccountname, givenname, sn, distinguishedname 
