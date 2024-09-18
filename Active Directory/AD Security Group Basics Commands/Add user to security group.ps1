@@ -1,0 +1,1 @@
+﻿Add-ADGroupMember -Identity "scientists" -members "srogers", "thor" 
