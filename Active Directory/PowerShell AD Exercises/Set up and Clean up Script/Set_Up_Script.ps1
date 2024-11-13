@@ -7,7 +7,7 @@ $users = @(
     @{Name="Mia Toretto"; SamAccountName="mtoretto"; Title="Operations"; Department="Administration"},
     @{Name="Roman Pearce"; SamAccountName="rpearce"; Title="Driver"; Department="Cars"}
 )
-$groups = @("Drivers", "Mechanics", "Operations")
+$groups = @("Drivers", "Mechanics", "Operations", "TeamFast", "Logistics", "Security")
 
 # Ensure the OU exists (create if it doesn't)
 if (-not (Get-ADOrganizationalUnit -Filter "Name -eq 'FastAndFurious'")) {
